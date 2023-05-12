@@ -1,0 +1,68 @@
+* { 
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+body { 
+    background-color: black;
+    color: white;
+}
+
+.container p {
+    font-size: 3rem;
+}
+
+
+.parallax-wrapper { 
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* perspective: 10px; */
+}
+
+
+.site-header {
+    background-image: url("./Parallax Content/Main Hero Photo.png");
+    background-size: cover;
+    padding: 5rem;
+    min-height: 150vh;
+    position: relative;
+
+    /* Parallax perspective */
+    /* transform-style: preserve-3d;
+    z-index: -1; */
+
+
+}           
+
+
+.site-header-mask { 
+    position: absolute; 
+    inset: 0;
+
+
+    -webkit-mask: url("./Parallax Content/Main Hero Photo Mask Inverted.png");
+    mask: url("./Parallax Content/Main Hero Photo Mask Inverted.png");
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+
+}
+
+
+
+.site-title {
+    text-align: center;
+    font-size: clamp(4rem, 10vw + 0.5rem, 9rem);
+    font-weight: 900;
+    text-transform: uppercase;
+    position: fixed; left: 60%;
+    white-space: nowrap;
+
+    color: black;
+}
+
+@media (min-width: 576px) {
+
+}
