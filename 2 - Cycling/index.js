@@ -29,6 +29,7 @@ function toggleAccordion(panelToActivate) {
 }
 
 
+
 // Scroll Reveal
 
 const sr = ScrollReveal ({
