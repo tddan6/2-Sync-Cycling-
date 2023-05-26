@@ -29,7 +29,6 @@ function toggleAccordion(panelToActivate) {
 }
 
 
-
 // Scroll Reveal
 
 const sr = ScrollReveal ({
@@ -40,9 +39,9 @@ const sr = ScrollReveal ({
 });
 
 sr.reveal('.site-title',{delay:100, origin:'top'});
-sr.reveal('.About-Us',{delay:200, origin:'top'});
-sr.reveal('.mountain-bike-info',{delay:300, origin:'top'});
-sr.reveal('.mountain-bike',{delay:500, origin:'left'});
-sr.reveal('.accordion',{delay:500, origin:'left'});
-sr.reveal('.fifth-container',{delay:500, origin:'left'});
+sr.reveal('.About-Us',{delay:50, origin:'top'});
+sr.reveal('.mountain-bike-info',{delay:100, origin:'top'});
+sr.reveal('.mountain-bike',{delay:300, origin:'left'});
+sr.reveal('.accordion',{delay:200, origin:'left'});
+sr.reveal('.fifth-container',{delay:200, origin:'left'});
 sr.reveal('footer',{delay:500, origin:'top'});
